@@ -236,7 +236,7 @@ document.write('<hr/>');
 abc = "16_Запитайте у користувача кількість елементів масиву. Виходячи з даних, які ввів користувач створіть масив на ту кількість елементів, яку передав користувач. у кожному індексі масиву зберігайте чило який показуватиме номер елемента масиву.";
 document.write(abc + '<p/>');
 
-let user = prompt();
+let user = prompt('Введіть кількість елементів масиву');
 arr = [];
 
 for (let i = 1; i <= user; i++) {
@@ -274,5 +274,5 @@ document.write(abc + '<p/>');
 
 let vegetables = ['Капуста', 'Ріпа', 'Редиска', 'Морковка'];
 
-document.write(vegetables.join(' . '));
+document.write(vegetables.join(', '));
 document.write('<hr/>');
