@@ -257,9 +257,9 @@ for (let i = 1; i <= user; i++) {
     arr.push(i);
 
     if (i % 2 === 0) {
-        document.write( `<span style="color:red;"> ${i}</span>` );
+        document.write( `<span style="color:red;"> ${i} </span>` );
       } else { (i % 2 !== 0)
-        document.write(`<p> ${i}</p>`);
+        document.write( `<p> ${i} </p>` );
       }
 };
 
